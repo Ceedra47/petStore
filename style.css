@@ -1,9 +1,9 @@
-/* main body settings */
+
 body{
     font-size: 18pt;
-    /* font-family: 'Times New Roman', Times, serif; */
+    
     font-family: Roboto, "Franklin Gothic Medium", Tahoma, sans-serif;
-    background-color: lightgrey;
+    background-color: rgb(177, 37, 95);
   
 }
 
@@ -11,36 +11,35 @@ html {
     overflow-x: hidden;
   }
 
-/* navigation links in the navbar */
+
 
 .nav-link{
     font-size: 20pt;
-    color: #F24783;
+    color: #f26f47;
     text-shadow: 7px 7px 6px rgb(0, 0, 0);   
     list-style-type: none;
     
    
 }
 
-/* navbar body */
+
 
 .navbar{
-    background-color: #5A1E82;
+    background-color: #341e82;
     max-height: 100px;
     position: relative;
    
 }
 
-/* Image for logo */
 #logo {
     max-height: 130px;   
     margin-bottom: 10px;
 } 
 
-/* text on logo */
+
 h1 {
     font-size: 30pt;
-    color: white;
+    color: rgb(216, 132, 23);
     text-align: left;
     font-family: "Franklin Gothic Medium", Tahoma, sans-serif;
     line-height: 50pt;
@@ -48,12 +47,12 @@ h1 {
 }
 
 
-/* slideshow button size */
+
 
 
 .carousel-inner > .carousel-item > img {
     height: 140vh;
-    
+   
     
   }
 
@@ -69,12 +68,6 @@ h1 {
     top: 33%;
     width: 60px;
 }
-
-/* END SLIDESHOW */
-
-
-
-/* Product Spotlight */
 
 h2 {
     font-size: 35pt;
@@ -97,13 +90,14 @@ h2 {
 .container {
     text-align: center;
     font-size: 15pt;
-    color: white;
+    color: rgb(100, 22, 22);
     font-family: "Franklin Gothic Medium", Tahoma, sans-serif;
     text-shadow: .5px .5px 0px black;
+	
 }
 
 
-/* video section */
+
 
 
 h3 {
@@ -119,120 +113,6 @@ h3 {
 
 }
 
-
-
-.video {
-	position: relative;
-	padding-top: 5%;
-	padding-bottom: 51.95%;
-    height: 0;
-}
-
-.video iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-    min-height: 0;
-    padding-left: 10%;
-
-}
-
-.video-gallery {
-	margin-top: 3em;
-	position: relative;
-	width: 100%;
-}
-
-.video-gallery .video {
-	animation: 1200ms fadeOut ease;
-	animation-fill-mode: both;
-	grid-column-start: 1;
-	grid-row-start: 1;
-	grid-row-end: 7;
-	max-height: 19.5em;
-	opacity: 0;
-	transition: all 300ms ease;
-}
-
-.video-gallery input[type="radio"] {
-	font-size: 0;
-	height: 0;
-	opacity: 0;
-	padding: 0;
-	position: fixed;
-	width: 0;
-}
-
-.video-gallery input {
-	grid-column-start: 1;
-	grid-row-start: 1;
-}
-
-.video-gallery label {
-	color: #000000;
-	font-size: 1.25em;
-	font-weight: 400;
-	grid-column-start: 2;
-	margin: 0 !important;
-	padding: 1rem 0 1rem 3rem;
-	position: relative;
-	border-bottom: 1px solid #CCCCCC;
-}
-
-.video-gallery label:last-of-type {
-	border: 0 none;
-}
-
-.video-gallery input[type="radio"]:checked + label {
-	color: #5A1E82 !important;
-}
-
-.video-gallery input[type="radio"]:checked + label:before {
-	content: "▶";
-	left: 0;
-	top: 12px;
-	position: absolute;
-}
-
-.grid-row {
-	display: relative;
-	height: 56vw;
-	max-height: 19.5em;
-    position: relative;
-    
-}
-
-.grid-row label {
-	left: 42rem;
-    position: flex;
-    column-count: 6;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    bottom: 1.5rem;
-
-}
-
-.grid-row .video {
-	padding: 0;
-	position: absolute;
-	top: 0;
-	width: 0;
-}
-
-.grid-row:after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-#video-1:checked ~ .video-1, #video-2:checked ~ .video-2, #video-3:checked ~ .video-3, #video-4:checked ~ .video-4, #video-5:checked ~ .video-5, #video-6:checked ~ .video-6 {
-	animation: 1200ms fadeIn ease;
-	animation-fill-mode: both;
-	opacity: 1;
-	width: 50%;
 }
 
 @keyframes fadeOut {
